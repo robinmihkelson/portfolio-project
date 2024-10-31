@@ -75,20 +75,20 @@
     <p class="text-[#DAC5A7] font-serif text-opacity-65 ml-2">SEE ALL</p>
     </div>
   </div>
-  <div class="flex flex-row justify-center gap-4 mt-4">
+  <div class="flex flex-row justify-center gap-6 mt-10">
     <div>
-      <img class="h-[430px] w-[610px] border-2" src="/src/assets/IMG1.png" alt="">
+      <img class="h-[430px] w-[610px] border-2 border-gray-800" src="/src/assets/IMG1.png" alt="">
     </div>
     <div>
-      <img class="h-[430px] w-[610px] border-2" src="/src/assets/IMG2.png" alt="">
+      <img class="h-[430px] w-[610px] border-2 border-gray-800" src="/src/assets/IMG2.png" alt="">
     </div>
   </div>
-    <div class="flex flex-row justify-center gap-4 mt-4">
+    <div class="flex flex-row justify-center gap-6 mt-6">
       <div>
-        <img class="h-[430px] w-[610px] border-2" src="/src/assets/IMG3.png" alt="">
+        <img class="h-[430px] w-[610px] border-2 border-gray-800" src="/src/assets/IMG3.png" alt="">
       </div>
     <div>
-        <img class="h-[430px] w-[610px] border-2" src="/src/assets/IMG4.png" alt="">
+        <img class="h-[430px] w-[610px] border-2 border-gray-800" src="/src/assets/IMG4.png" alt="">
       </div>
     </div>
 
