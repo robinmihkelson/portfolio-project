@@ -72,24 +72,32 @@
     <button class="h-[30px] w-[30px] rounded-2xl border-[#DAC5A7] border-opacity-35 border-[1px] ml-4">
       <img class="mx-[5px]" src="/src/assets/ph_arrow-up-right-light.png" alt="">
     </button>
-    <p class="text-[#DAC5A7] font-serif text-opacity-65 ml-2">SEE ALL</p>
+    <p class="text-[#DAC5A7] font-serif text-opacity-65 ml-2 mt-1">SEE ALL</p>
     </div>
   </div>
   <div class="flex flex-row justify-center gap-6 mt-10">
     <div>
-      <img class="h-[430px] w-[610px] border-2 border-gray-800" src="/src/assets/IMG1.png" alt="">
+      <section class="h-[430px] w-[610px] border-2 border-gray-800"
+    style="background-image: url(/src/assets/IMG1.png);">
+      </section>
     </div>
     <div>
-      <img class="h-[430px] w-[610px] border-2 border-gray-800" src="/src/assets/IMG2.png" alt="">
+      <section class="h-[430px] w-[610px] border-2 border-gray-800"
+    style="background-image: url(/src/assets/IMG2.png);">
+      </section>
     </div>
   </div>
     <div class="flex flex-row justify-center gap-6 mt-6">
       <div>
-        <img class="h-[430px] w-[610px] border-2 border-gray-800" src="/src/assets/IMG3.png" alt="">
+        <section class="h-[430px] w-[610px] border-2 border-gray-800"
+    style="background-image: url(/src/assets/IMG3.png);">
+        </section>
       </div>
     <div>
-        <img class="h-[430px] w-[610px] border-2 border-gray-800" src="/src/assets/IMG4.png" alt="">
-      </div>
+      <section class="h-[430px] w-[610px] border-2 border-gray-800"
+    style="background-image: url(/src/assets/IMG4.png);">
+        </section>
+    </div>
     </div>
 
   </div>
