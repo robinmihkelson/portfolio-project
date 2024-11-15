@@ -138,8 +138,20 @@
           <li class="mt-4">interactive Prototype</li>
         </ul>
       </div>
+    </div>
 
-      <div class="bg-[#1F2833] w-[550px] h-96 bg-opacity-45 mx-24 mt-[400px] border-2 border-[#66FCF1] border-opacity-15">
+    <div class="flex flex-row-reverse">
+      <div class="bg-[#1F2833] w-[550px] h-96 bg-opacity-45 mx-24 -mt-12 border-2 border-[#66FCF1] border-opacity-15">
+        <p class="text-[#C5C6C7] mt-8 mx-8 text-opacity-45">SOME MAGIC</p>
+        <p class="text-2xl text-[#66FCF1] mt-4 mx-8">WEB DESIGN</p>
+        <p class="text-[#C5C6C7] w-[500px] mx-8 mt-4 text-opacity-45">Now comes the magic. Based on the previously developed concept, I create a high-end screen design perfectly tailored to your brand. A web design that sets you apart from your competition, fits your target audience ideally, and provides an excellent user experience.</p>
+        <ul class="list-disc mx-[50px] mt-4 text-[#66FCF1]">
+          <li>We get to know each other better</li>
+          <li class="mt-4">Interactive prototype of the design</li>
+        </ul>
+      </div>
+
+      <div class="bg-[#1F2833] w-[550px] h-96 bg-opacity-45 mx-24 mt-[270px] border-2 border-[#66FCF1] border-opacity-15">
         <p class="text-[#C5C6C7] mt-8 mx-8 text-opacity-45">LOREM IPSUM</p>
         <p class="text-2xl text-[#66FCF1] mt-4 mx-8">CONCEPT & STRATEGY</p>
         <p class="text-[#C5C6C7] w-[500px] mx-8 mt-4 text-opacity-45">Together, we develop a strategy that successfully combines your goals with the needs of your target audience. Based on this concept, I create the first wireframes and an interactive prototype. This provides us with a very good impression of the website and the user interface.</p>
