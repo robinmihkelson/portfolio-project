@@ -11,3 +11,70 @@
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
+
+
+<style scoped>
+  .section-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: translateZ(0); /* This can help with rendering */
+  }
+  
+  .section-hover:hover {
+    transform: scale(1.05) translateZ(0); /* Apply scale without layout shift */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeOut {
+      from {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      to {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+    }
+
+    .fade-in {
+      animation: fadeIn 0.8s ease-out forwards;
+    }
+
+    .fade-out {
+      animation: fadeOut 0.8s ease-out forwards;
+    }
+
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const elements = document.querySelectorAll("[data-animate]");
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Add fade-in class when element enters the viewport
+            entry.target.classList.remove("opacity-0");
+            entry.target.classList.add("fade-in");
+          } else {
+            // Add fade-out class when element exits the viewport
+            entry.target.classList.remove("fade-in");
+            entry.target.classList.add("opacity-0");
+          }
+        });
+      });
+
+      elements.forEach((el) => observer.observe(el));
+    });
+  </script>
+
