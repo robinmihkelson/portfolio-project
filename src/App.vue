@@ -1,7 +1,5 @@
 <template>
-  <div id="app">
-    <FrontPage />
-  </div>
+  <RouterView></RouterView>
 </template>
 
 <script>
