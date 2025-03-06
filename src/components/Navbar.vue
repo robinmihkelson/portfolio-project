@@ -17,7 +17,7 @@ const goToContact = () => navigateTo('/contact');
 const goToHome = () => navigateTo('/home');
 const goToAbout = () => navigateTo('/about');
 const goToService = () => navigateTo('/service');
-const goToWork = () => navigateTo('/work')
+const goToPages = () => navigateTo('/work')
 
 
 </script>
