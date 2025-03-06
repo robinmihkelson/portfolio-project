@@ -1,5 +1,11 @@
-<script setup>
+<script>
+import CubeTowerAnimation from '/home/robin/portfolio-project/src/components/CubeTowerAnimation.vue'
 
+export default {
+  components: {
+    CubeTowerAnimation
+  }
+}
 </script>
 
 <template>
@@ -10,7 +16,7 @@
         <router-link to="/services" href class="text-[#C5C6C7] text-sm sm:text-base mt-6">SERVICES</router-link >
         <router-link to="/about" href class="text-[#C5C6C7] text-sm sm:text-base mt-6">ABOUT</router-link >
         <button class="text-[#C5C6C7] text-sm sm:text-base">PAGES</button>
-        <router-link to="/services" href class="w-24 h-14 bg-[#66FCF1] mt-2 hover:bg-orange-300 text-xs sm:text-base flex justify-center items-center">LET'S TALK</router-link >
+        <router-link to="/services" href class="w-24 h-14 bg-[#66FCF1] mt-2 hover:bg-[#206e69] transition text-xs sm:text-base flex justify-center items-center">LET'S TALK</router-link >
       </div>
     </div>
 
@@ -20,6 +26,10 @@
     </div>
   </section>
 
+
+  <div>
+    <CubeTowerAnimation />
+  </div>
   <div class="bg-[#0B0C10] h-[5450px] w-full">
     <div class="flex justify-center flex-wrap pt-24 gap-12 sm:gap-28">
       <img class="h-[80px] w-[80px] sm:h-[100px] sm:w-[100px]" src="/src/assets/js.png" alt="">
@@ -194,7 +204,7 @@
             <p class="text-[#66FCF1] text-lg font-medium mb-2">Amazing Results with Robin's Premium Web Design Services.
             </p>
             <p class="text-gray-400 text-sm">
-              Arik is a top-notch web designer who created a stunning website for my business. I highly recommend his
+              Robin is a top-notch web designer who created a stunning website for my business. I highly recommend his
               services.
             </p>
           </div>
@@ -213,7 +223,7 @@
             <p class="text-[#66FCF1] text-lg font-medium mb-2">Expert Webflow and SEO Services: Excellent Work, Great
               Results.</p>
             <p class="text-gray-400 text-sm">
-              Working with Arik on my website redesign was a fantastic experience. I couldn't be happier with the
+              Working with Robin on my website redesign was a fantastic experience. I couldn't be happier with the
               result.
             </p>
           </div>
@@ -230,9 +240,9 @@
               </div>
             </div>
             <p class="text-[#66FCF1] text-lg font-medium mb-2">Professional, Collaborative Web Design Experience with
-              Arik.</p>
+              Robin.</p>
             <p class="text-gray-400 text-sm">
-              I was blown away by his expertise and professionalism. Highly recommend Arik for all your web development
+              I was blown away by his expertise and professionalism. Highly recommend Robin for all your web development
               needs.
             </p>
           </div>
@@ -275,7 +285,7 @@
       <div>
         <h3 class="font-semibold text-[#66FCF1] mb-4">Pages</h3>
         <ul class="space-y-2">
-          <li><a href="#" class="hover:text-v transform hover:translate-x-2 transition">Home</a></li>
+          <li><a href="#" class="hover:text-[#206e69] transform hover:translate-x-2 transition">Home</a></li>
           <li><a href="#" class="hover:text-[#206e69] transform hover:translate-x-2 transition">Services</a>
           </li>
           <li><a href="#" class="hover:text-[#206e69] transform hover:translate-x-2 transition">About</a></li>
@@ -323,3 +333,7 @@
     </div>
   </footer>
 </template>
+
+<style>
+
+</style>
