@@ -9,7 +9,6 @@
         <router-link to="/frontpage" href class="text-[#C5C6C7] text-sm sm:text-base mt-6">robin.</router-link>
         <router-link to="/services" href class="text-[#C5C6C7] text-sm sm:text-base mt-6 border-b-2 border-[#66FCF1]">SERVICES</router-link>
         <router-link to="/about" href class="text-[#C5C6C7] text-sm sm:text-base mt-6">ABOUT</router-link>
-        <button class="text-[#C5C6C7] text-sm sm:text-base">PAGES</button>
         <router-link to="/services" href class="w-24 h-14 bg-[#66FCF1] mt-2 hover:bg-[#206e69] transition text-xs sm:text-base flex justify-center items-center">LET'S TALK</router-link>
       </div>
     </div>
@@ -21,7 +20,6 @@
   </section>
 
   <div class="bg-[#0B0C10] min-h-screen w-full pb-24">
-    <!-- Services Introduction -->
     <div class="text-center pt-24 px-6">
       <h1 class="text-[#C5C6C7] text-[15px] text-opacity-65">WHAT I OFFER</h1>
       <p class="text-[48px] sm:text-[80px] text-[#66FCF1] mt-6 font-serif">Premium Services</p>
@@ -31,7 +29,6 @@
       </h1>
     </div>
 
-    <!-- Services Cards (Expanded) -->
     <div class="flex flex-wrap justify-center gap-8 mt-16 px-4 sm:px-8">
       <div class="bg-[#1F2833] w-full sm:w-[400px] h-[430px] bg-opacity-45 transition-transform transform hover:scale-105 hover:translate-y-1 p-8">
         <p class="text-[#66FCF1] text-opacity-65">01</p>
@@ -88,7 +85,6 @@
       </div>
     </div>
 
-    <!-- Additional Services -->
     <div class="flex flex-wrap justify-center gap-8 mt-8 px-4 sm:px-8">
       <div class="bg-[#1F2833] w-full sm:w-[400px] h-[430px] bg-opacity-45 transition-transform transform hover:scale-105 hover:translate-y-1 p-8">
         <p class="text-[#66FCF1] text-opacity-65">04</p>
@@ -145,7 +141,6 @@
       </div>
     </div>
 
-    <!-- Process Section -->
     <div class="mt-32 px-4">
       <div class="text-center">
         <h1 class="text-[#C5C6C7] text-[15px] text-opacity-65">MY APPROACH</h1>
@@ -216,7 +211,6 @@
       </div>
     </div>
 
-    <!-- Pricing Section -->
     <div class="mt-32 px-4">
       <div class="text-center">
         <h1 class="text-[#C5C6C7] text-[15px] text-opacity-65">INVESTMENT</h1>
@@ -229,7 +223,7 @@
       <div class="flex flex-wrap justify-center gap-8 mt-16">
         <div class="bg-[#1F2833] w-full sm:w-[350px] h-auto bg-opacity-45 border-2 border-[#66FCF1] border-opacity-15 p-8">
           <p class="text-[#C5C6C7] text-opacity-45">STARTER</p>
-          <p class="text-4xl text-[#66FCF1] mt-4">$1,499</p>
+          <p class="text-4xl text-[#66FCF1] mt-4">1€</p>
           <p class="text-[#C5C6C7] text-opacity-45 mt-2">Perfect for small businesses</p>
           <ul class="list-disc mt-6 text-[#C5C6C7] mx-[18px]">
             <li>5-page responsive website</li>
@@ -246,7 +240,7 @@
         <div class="bg-[#1F2833] w-full sm:w-[350px] h-auto bg-opacity-45 border-2 border-[#66FCF1] border-opacity-55 p-8">
           <div class="bg-[#66FCF1] text-black text-center py-1 mx-auto w-32 -mt-12 mb-4">POPULAR</div>
           <p class="text-[#C5C6C7] text-opacity-45">BUSINESS</p>
-          <p class="text-4xl text-[#66FCF1] mt-4">$2,999</p>
+          <p class="text-4xl text-[#66FCF1] mt-4">5€</p>
           <p class="text-[#C5C6C7] text-opacity-45 mt-2">For growing businesses</p>
           <ul class="list-disc mt-6 text-[#C5C6C7] mx-[18px]">
             <li>10-page responsive website</li>
@@ -263,7 +257,7 @@
 
         <div class="bg-[#1F2833] w-full sm:w-[350px] h-auto bg-opacity-45 border-2 border-[#66FCF1] border-opacity-15 p-8">
           <p class="text-[#C5C6C7] text-opacity-45">PREMIUM</p>
-          <p class="text-4xl text-[#66FCF1] mt-4">$4,999</p>
+          <p class="text-4xl text-[#66FCF1] mt-4">10€</p>
           <p class="text-[#C5C6C7] text-opacity-45 mt-2">For established enterprises</p>
           <ul class="list-disc mt-6 text-[#C5C6C7] mx-[18px]">
             <li>Custom website (unlimited pages)</li>
@@ -281,7 +275,6 @@
       </div>
     </div>
 
-    <!-- Call to Action -->
     <div class="mt-32 px-4">
       <div class="bg-[#1F2833] bg-opacity-45 p-12 max-w-5xl mx-auto text-center border-2 border-[#66FCF1] border-opacity-15">
         <h1 class="text-[#C5C6C7] text-[15px] text-opacity-65">NEED SOMETHING CUSTOM?</h1>
@@ -298,7 +291,6 @@
     </div>
   </div>
 
-  <!-- Footer -->
   <footer class="w-full py-10 bg-[#0B0C10] text-gray-400">
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left px-4">
       <div>

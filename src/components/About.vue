@@ -9,7 +9,6 @@
         <router-link to="/frontpage" href class="text-[#C5C6C7] text-sm sm:text-base mt-6">robin.</router-link>
         <router-link to="/services" href class="text-[#C5C6C7] text-sm sm:text-base mt-6">SERVICES</router-link>
         <router-link to="/about" href class="text-[#C5C6C7] text-sm sm:text-base mt-6 border-b-2 border-[#66FCF1]">ABOUT</router-link>
-        <button class="text-[#C5C6C7] text-sm sm:text-base">PAGES</button>
         <router-link to="/services" href class="w-24 h-14 bg-[#66FCF1] mt-2 hover:bg-[#206e69] transition text-xs sm:text-base flex justify-center items-center">LET'S TALK</router-link>
       </div>
     </div>
@@ -21,7 +20,6 @@
   </section>
 
   <div class="bg-[#0B0C10] min-h-screen w-full pb-24">
-    <!-- About Introduction -->
     <div class="text-center pt-24 px-6">
       <h1 class="text-[#C5C6C7] text-[15px] text-opacity-65">WHO I AM</h1>
       <p class="text-[48px] sm:text-[80px] text-[#66FCF1] mt-6 font-serif">Robin Mihkelson</p>
@@ -33,14 +31,13 @@
 
     <div class="flex flex-wrap justify-center items-center gap-12 mt-16 px-4 sm:px-16">
 
-      <!-- About Text -->
       <div class="w-full sm:w-[450px]">
         <h2 class="text-[#66FCF1] text-3xl font-serif text-center">My Story</h2>
         <p class="text-[#C5C6C7] mt-6 leading-relaxed">
           I started my journey in web development back in 2023, fascinated by the intersection of design and technology. What began as a curiosity quickly evolved into a passion for crafting digital experiences that not only look beautiful but also solve real business problems.
         </p>
         <p class="text-[#C5C6C7] mt-4 leading-relaxed">
-          Based in Estonia, I've had the privilege of working with clients ranging from ambitious startups to established enterprises across various industries. My approach combines strategic thinking with technical expertise to deliver websites that stand out in today's competitive digital landscape.
+          Based in Estonia, my approach combines strategic thinking with technical expertise to deliver websites that stand out in today's competitive digital landscape.
         </p>
         <p class="text-[#C5C6C7] mt-4 leading-relaxed">
           When I'm not coding or designing, you'll find me exploring new design trends, contributing to open-source projects, or hiking the beautiful trails of Saaremaa.
@@ -53,7 +50,6 @@
       </div>
     </div>
 
-    <!-- Skills Section -->
     <div class="mt-32 px-4">
       <div class="text-center">
         <h1 class="text-[#C5C6C7] text-[15px] text-opacity-65">MY EXPERTISE</h1>
@@ -105,7 +101,6 @@
       </div>
     </div>
 
-    <!-- Experience Section -->
     <div class="mt-32 px-4">
       <div class="text-center">
         <h1 class="text-[#C5C6C7] text-[15px] text-opacity-65">MY JOURNEY</h1>
@@ -116,7 +111,6 @@
       </div>
 
       <div class="mt-16 max-w-4xl mx-auto">
-        <!-- Timeline Item 1 -->
         <div class="flex flex-col sm:flex-row">
           <div class="w-full sm:w-1/3 px-4">
             <p class="text-[#66FCF1] font-bold">2023 - Present</p>
@@ -124,15 +118,11 @@
           </div>
           <div class="w-full sm:w-2/3 mt-4 sm:mt-0 px-4 pb-12 border-l-2 border-[#66FCF1] border-opacity-15">
             <h3 class="text-[#66FCF1] text-xl">Kuressaare Ametikool</h3>
-            <p class="text-[#C5C6C7] mt-4">
-              Working directly with clients to create custom web solutions that address their specific business needs. Handling all aspects of the web development process from initial discovery to final deployment.
-            </p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Testimonials Section -->
     <div class="mt-32 px-4">
       <div class="text-center">
         <h1 class="text-[#C5C6C7] text-[15px] text-opacity-65">CLIENT FEEDBACK</h1>
@@ -143,7 +133,6 @@
       </div>
 
       <div class="flex flex-wrap justify-center gap-8 mt-16">
-        <!-- Testimonial 1 -->
         <div class="bg-[#1F2833] w-full sm:w-[400px] h-auto bg-opacity-45 border-2 border-[#66FCF1] border-opacity-15 p-8">
           <div class="flex mb-6">
             <div class="w-16 h-16 rounded-full bg-[#C5C6C7] bg-opacity-20 flex items-center justify-center">
@@ -159,7 +148,6 @@
           </p>
         </div>
 
-        <!-- Testimonial 2 -->
         <div class="bg-[#1F2833] w-full sm:w-[400px] h-auto bg-opacity-45 border-2 border-[#66FCF1] border-opacity-15 p-8">
           <div class="flex mb-6">
             <div class="w-16 h-16 rounded-full bg-[#C5C6C7] bg-opacity-20 flex items-center justify-center">
@@ -175,7 +163,6 @@
           </p>
         </div>
 
-        <!-- Testimonial 3 -->
         <div class="bg-[#1F2833] w-full sm:w-[400px] h-auto bg-opacity-45 border-2 border-[#66FCF1] border-opacity-15 p-8">
           <div class="flex mb-6">
             <div class="w-16 h-16 rounded-full bg-[#C5C6C7] bg-opacity-20 flex items-center justify-center">
@@ -193,7 +180,6 @@
       </div>
     </div>
 
-    <!-- Call to Action -->
     <div class="mt-32 px-4">
       <div class="bg-[#1F2833] bg-opacity-45 p-12 max-w-5xl mx-auto text-center border-2 border-[#66FCF1] border-opacity-15">
         <h1 class="text-[#C5C6C7] text-[15px] text-opacity-65">READY TO START?</h1>
@@ -210,7 +196,7 @@
     </div>
   </div>
 
-  <!-- Footer -->
+
   <footer class="w-full py-10 bg-[#0B0C10] text-gray-400">
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left px-4">
       <div>

@@ -333,9 +333,9 @@
     --gap: 0.05em;
     position: absolute;
     inset: var(--gap);
-    background-color: rgba(0, 0, 0, 0.85);
-    border: 2px dodgerblue solid;
-    box-shadow: 0 0 0.5em dodgerblue inset;
+    background-color: #0B0C10;
+    border: 2px #66FCF1 solid;
+    box-shadow: 0 0 0.5em #66FCF1 inset;
   }
   
   .box i:nth-child(1) { transform: translateZ(calc(0.5em - var(--gap))); }
