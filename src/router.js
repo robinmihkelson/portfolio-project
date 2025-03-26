@@ -8,7 +8,7 @@ import Pages from './components/Pages.vue';
 
 const routes = [
   {
-    path: '/frontpage',
+    path: '/',
     component: FrontPage,
     name: 'Frontpage' 
   },
