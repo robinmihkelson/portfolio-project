@@ -1,5 +1,5 @@
 <script>
-import CubeTowerAnimation from '/home/robin/portfolio-project/src/components/CubeTowerAnimation.vue'
+import CubeTowerAnimation from '@/components/CubeTowerAnimation.vue';
 
 export default {
   components: {
